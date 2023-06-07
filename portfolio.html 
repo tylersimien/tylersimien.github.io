@@ -15,8 +15,11 @@
                <a class="nav-a" href="portfolio.html">Portfolio</a>
              </li>
          </ul>
-     </nav>
- </div>
 
+     </nav>
+<ul id="portfolio">
+
+</ul>
+ </div>
 
 
