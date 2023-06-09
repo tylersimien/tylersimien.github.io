@@ -47,27 +47,48 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
+    createPlatform(150, 629, 27, 32)
+    createPlatform(250, 529, 27, 32)
+    createPlatform(350, 429, 27, 32)
+    createPlatform(450, 329, 27, 32)
+    createPlatform(550, 000, 27, 200)
+    createPlatform(550, 330, 27, 500)
+    createPlatform(650, 329, 27, 32)
+    createPlatform(800, 350, 147, 32)
+    createPlatform(900, 80, 47, 990)
+    createPlatform(830, 257, 20, 32)
+    createPlatform(830, 657, 5, 32)
+    createPlatform(730, 557, 5, 32)
+    createPlatform(630, 457, 5, 32)
+    createPlatform(745, 157, 20, 32)
+    createPlatform(872, 100, 29, 20)
+    createPlatform(994, 150, 55, 37)
+    createPlatform(1042, 250, 45, 37)
+    createPlatform(1152, 350, 45, 37)
+    createPlatform(1262, 450, 45, 37)
+    createPlatform(1382, 550, 45, 37)
+    createPlatform(1182, 850, 45, 37)
 
 
-
-    
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-
-
-
-
+    createCollectable('diamond', 1072, 130, 0, 3)
+    createCollectable('diamond', 250, 510, 0, 3)
+    createCollectable('max', 800, 330, 0, 3)
+    createCollectable('max',800, 700, -8, 3)
+    createCollectable('kennedi',1000, 700, 0, 3)
+    createCollectable('kennedi',1282, 379, 0, 3)
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-
-
-
+    createCannon('left' , 500, 1500, 10,10)
+    createCannon('top' , 500, 1500, 10,15)
+    createCannon('right' , 200, 1500, 10,19)
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
