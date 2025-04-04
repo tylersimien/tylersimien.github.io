@@ -41,11 +41,8 @@ init();
 
 function init() {
   // TODO 4c-2: initialize the snake
-
   // TODO 4b-2: initialize the apple
-
   // TODO 5a: Initialize the interval
-
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -208,7 +205,6 @@ function makeSnakeSquare(row, column) {
 */
 function handleKeyDown(event) {
   // TODO 6a: make the handleKeyDown function register which key is pressed
-  
 }
 
 /* Given a gameSquare (which may be a snakeSquare or the apple), position

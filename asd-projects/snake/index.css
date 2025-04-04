@@ -23,7 +23,7 @@ body {
 }
 
 .snake {
-  background-color: green;
+  background-color: rgb(127, 19, 243);
   z-index: 2;
 }
 
@@ -32,6 +32,6 @@ body {
 }
 
 .apple {
-  background-color: red;
+  background-color: rgb(255, 251, 0);
   z-index: 1;
 }
