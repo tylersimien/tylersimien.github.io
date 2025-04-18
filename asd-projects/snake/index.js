@@ -154,6 +154,14 @@ function hasHitWall() {
 }
 //TODO 9
 function hasCollidedWithApple() {
+  if (snake.head.row === apple.row && apple.column === snake.head.column){
+    return true
+  }
+//  else if (snake.apple.row > ROWS){
+
+  //  return true;
+ // }else if (snake.apple.column)
+
   /* 
   TODO 9: Should return true if the snake's head has collided with the apple, 
   false otherwise
@@ -182,12 +190,16 @@ function handleAppleCollision() {
   If the tail is moving "down", place the next snakeSquare above it.
   etc...
   */
-  var row = 0;
-  var column = 0;
-
+  var row = snake.tail.row;
+  var column = snake.tail.column;
+//todo10a
   // code to determine the row and column of the snakeSquare to add to the snake
+if (snake.tail.direction === "right") {
+  column--
+}
 
   makeSnakeSquare(row, column);
+  
 }
 
 function hasCollidedWithSnake() {
