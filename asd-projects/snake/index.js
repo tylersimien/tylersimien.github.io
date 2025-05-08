@@ -102,12 +102,13 @@ function checkForNewDirection(event) {
 
 function moveSnake() {
   for (let i = snake.body.length-1; i > 0; i-- ) {
-    var snakeSquare = "???";
+    var snakeSquare = snake.body[i];
 
-    var nextSnakeSquare = "???";
-    var nextRow = "???";
-    var nextColumn = "???";
-    var nextDirection = "???";
+    var nextSnakeSquare = snake.body[i-1];
+    console.log (nextSnakeSquare)
+    var nextRow = nextSnakeSquare.row;
+    var nextColumn = nextSnakeSquare.column;
+    var nextDirection = nextSnakeSquare.direction;
 
     snakeSquare.direction = nextDirection;
     snakeSquare.row = nextRow;
